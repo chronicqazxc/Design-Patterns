@@ -1,5 +1,6 @@
 Cocoa-Design-Pattern
 ====================
-For practice
-Reference from Cocoa Design Patterns book
-http://www.cosmicthump.com/
+For my practice  
+Those codes are reference from Cocoa Design Patterns book, 
+and modify some place by myself  
+book ref: http://www.cosmicthump.com/
