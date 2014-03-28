@@ -38,6 +38,7 @@
          *   , that will leads _firstNode.nextNode == _lastNode, so when entry the if
          *   scope next time, process 1.(_lastNode.nextNode = newNode) this is equal to
          *   _firstNode.nextObj.nextObj.nextObj and so on.
+         *                                      Comment by Wayne Hsiao 2014/3/28
          */
         _lastNode.nextNode = newNode; // 1.
         _lastNode = newNode;          // 2.
