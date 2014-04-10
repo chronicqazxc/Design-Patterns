@@ -8,9 +8,18 @@
 
 #import "MyObject.h"
 
+@interface MyObject()
+
+- (void)morning;
+- (void)noon;
+- (void)evening;
+- (void)night;
+
+@end
+
 @implementation MyObject
 
-- (NSString *)dailyFrom1To4:(int) num withName:(NSString *)name{
+- (NSString *)dailyFrom1To4:(int) num withSomeGuy:(NSString *)name{
     NSDictionary *dic = [[NSDictionary alloc] initWithObjects:@[@"morning",@"noon",@"evening",@"night"] forKeys:@[@1,@2,@3,@4]];
     
     NSString *moment = [dic objectForKey:[NSNumber numberWithInt:num]];
@@ -22,7 +31,7 @@
     NSLog(@"Good morning, %@",self.name);
 }
 - (void)noon{
-    NSLog(@"%@ go wat launch.",self.name);
+    NSLog(@"%@ go eat launch.",self.name);
 }
 - (void)evening{
     NSLog(@"%@ go off work.", self.name);

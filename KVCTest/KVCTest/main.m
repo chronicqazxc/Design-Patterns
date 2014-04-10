@@ -25,7 +25,7 @@ int main(int argc, const char * argv[])
         scanf("%d",&dailyMoment);
         
         name = [NSString stringWithFormat:@"%s",charName];
-        NSString *selector = [obj dailyFrom1To4:dailyMoment withName:name];
+        NSString *selector = [obj dailyFrom1To4:dailyMoment withSomeGuy:name];
         
         if([obj respondsToSelector:NSSelectorFromString(selector)])
             [obj valueForKey:selector];

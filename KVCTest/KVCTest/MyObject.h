@@ -12,11 +12,6 @@
 
 @property (weak, nonatomic) NSString *name;
 
-- (void)morning;
-- (void)noon;
-- (void)evening;
-- (void)night;
-
-- (NSString *)dailyFrom1To4:(int) num withName:(NSString *)name;
+- (NSString *)dailyFrom1To4:(int) num withSomeGuy:(NSString *)name;
 
 @end
