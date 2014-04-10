@@ -17,6 +17,6 @@
 - (void)evening;
 - (void)night;
 
-- (NSString *)giveDay:(int) a;
+- (NSString *)dailyFrom1To4:(int) num withName:(NSString *)name;
 
 @end

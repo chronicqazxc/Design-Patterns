@@ -10,11 +10,11 @@
 
 @implementation MyObject
 
-- (NSString *)giveDay:(int) a{
+- (NSString *)dailyFrom1To4:(int) num withName:(NSString *)name{
     NSDictionary *dic = [[NSDictionary alloc] initWithObjects:@[@"morning",@"noon",@"evening",@"night"] forKeys:@[@1,@2,@3,@4]];
     
-    NSString *moment = [dic objectForKey:[NSNumber numberWithInt:a]];
-    
+    NSString *moment = [dic objectForKey:[NSNumber numberWithInt:num]];
+    self.name = name;
     return moment;
 }
 
