@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         MyObj *myObj = [[MyObj alloc] init];
         myObj.name = @"Halo";
-#pragma mark - Copy NSArray
+#pragma mark Copy NSArray
         NSArray *originArray = @[myObj];
         NSArray *copiedArray = [originArray copy];
         NSMutableArray *mutableCopiedArray = [originArray mutableCopy];
@@ -23,12 +23,12 @@ int main(int argc, const char * argv[]) {
         NSLog(@"copyiedArray\t\t<%p>\n%@",copiedArray, copiedArray);
         NSLog(@"mutableCopiedArray\t<%p>\n%@\n-----------------",mutableCopiedArray, mutableCopiedArray);
         
-#pragma mark - Copy MyObj
+#pragma mark Copy MyObj
         MyObj *myObj2 = [myObj copy];
         NSLog(@"myObj\t<%p>\n",myObj);
         NSLog(@"myObj2\t<%p>\n-----------------",myObj2);
         
-#pragma mark - DeepCopy NSMutableArray
+#pragma mark DeepCopy NSMutableArray
         NSMutableArray *originMArray = [NSMutableArray arrayWithObject:myObj];
         NSArray *copiedMArray = [originMArray copy];
         NSMutableArray *mutableCopiedMArray = [originMArray mutableCopy];

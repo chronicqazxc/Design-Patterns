@@ -12,9 +12,6 @@
 
 @implementation MyObj
 - (id)copyWithZone:(NSZone *)zone {
-//    MyObj *result = [[[self class] allocWithZone:zone] init];
-//    result.name = self.name;
-//    return result;
     return self;
 }
 
