@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0498D481B0B1C340011C6C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0498D2A1B0B1A740011C6C6 /* main.m */; };
-		B0498D491B0B1C340011C6C6 /* MyObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B0498D2C1B0B1A740011C6C6 /* MyObj.m */; };
-		B0498D4A1B0B1C340011C6C6 /* NSMutableArray+MutableArrayDeepCopyingSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = B0498D2E1B0B1A740011C6C6 /* NSMutableArray+MutableArrayDeepCopyingSupport.m */; };
-		B0498D4E1B0B2AA00011C6C6 /* MyObj2.m in Sources */ = {isa = PBXBuildFile; fileRef = B0498D4D1B0B2AA00011C6C6 /* MyObj2.m */; };
+		B05D6C381B0B450300021309 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B05D6C371B0B450300021309 /* main.m */; };
+		B05D6C401B0B451100021309 /* SharedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B05D6C3F1B0B451100021309 /* SharedObject.m */; };
+		B05D6C431B0B483100021309 /* DescendantOfShareObj.m in Sources */ = {isa = PBXBuildFile; fileRef = B05D6C421B0B483100021309 /* DescendantOfShareObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B0498D3F1B0B1AED0011C6C6 /* CopyFiles */ = {
+		B05D6C321B0B450300021309 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,18 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B0498D2A1B0B1A740011C6C6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CopyMode/main.m; sourceTree = SOURCE_ROOT; };
-		B0498D2B1B0B1A740011C6C6 /* MyObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyObj.h; path = CopyMode/MyObj.h; sourceTree = SOURCE_ROOT; };
-		B0498D2C1B0B1A740011C6C6 /* MyObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyObj.m; path = CopyMode/MyObj.m; sourceTree = SOURCE_ROOT; };
-		B0498D2D1B0B1A740011C6C6 /* NSMutableArray+MutableArrayDeepCopyingSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+MutableArrayDeepCopyingSupport.h"; path = "CopyMode/NSMutableArray+MutableArrayDeepCopyingSupport.h"; sourceTree = SOURCE_ROOT; };
-		B0498D2E1B0B1A740011C6C6 /* NSMutableArray+MutableArrayDeepCopyingSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+MutableArrayDeepCopyingSupport.m"; path = "CopyMode/NSMutableArray+MutableArrayDeepCopyingSupport.m"; sourceTree = SOURCE_ROOT; };
-		B0498D411B0B1AED0011C6C6 /* CopyMode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CopyMode; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0498D4C1B0B2AA00011C6C6 /* MyObj2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyObj2.h; path = CopyMode/MyObj2.h; sourceTree = SOURCE_ROOT; };
-		B0498D4D1B0B2AA00011C6C6 /* MyObj2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyObj2.m; path = CopyMode/MyObj2.m; sourceTree = SOURCE_ROOT; };
+		B05D6C341B0B450300021309 /* SharedInstance(Singleton) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SharedInstance(Singleton)"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05D6C371B0B450300021309 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B05D6C3E1B0B451100021309 /* SharedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedObject.h; sourceTree = "<group>"; };
+		B05D6C3F1B0B451100021309 /* SharedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedObject.m; sourceTree = "<group>"; };
+		B05D6C411B0B483100021309 /* DescendantOfShareObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescendantOfShareObj.h; sourceTree = "<group>"; };
+		B05D6C421B0B483100021309 /* DescendantOfShareObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescendantOfShareObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B0498D3E1B0B1AED0011C6C6 /* Frameworks */ = {
+		B05D6C311B0B450300021309 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,104 +44,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B00354501B0ADDBC00B5B9E6 = {
+		B05D6C2B1B0B450300021309 = {
 			isa = PBXGroup;
 			children = (
-				B003545B1B0ADDBC00B5B9E6 /* CopyMode */,
-				B003545A1B0ADDBC00B5B9E6 /* Products */,
+				B05D6C361B0B450300021309 /* SharedInstance(Singleton) */,
+				B05D6C351B0B450300021309 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B003545A1B0ADDBC00B5B9E6 /* Products */ = {
+		B05D6C351B0B450300021309 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0498D411B0B1AED0011C6C6 /* CopyMode */,
+				B05D6C341B0B450300021309 /* SharedInstance(Singleton) */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B003545B1B0ADDBC00B5B9E6 /* CopyMode */ = {
+		B05D6C361B0B450300021309 /* SharedInstance(Singleton) */ = {
 			isa = PBXGroup;
 			children = (
-				B0498D2A1B0B1A740011C6C6 /* main.m */,
-				B0498D2B1B0B1A740011C6C6 /* MyObj.h */,
-				B0498D2C1B0B1A740011C6C6 /* MyObj.m */,
-				B0498D4C1B0B2AA00011C6C6 /* MyObj2.h */,
-				B0498D4D1B0B2AA00011C6C6 /* MyObj2.m */,
-				B0498D2D1B0B1A740011C6C6 /* NSMutableArray+MutableArrayDeepCopyingSupport.h */,
-				B0498D2E1B0B1A740011C6C6 /* NSMutableArray+MutableArrayDeepCopyingSupport.m */,
+				B05D6C371B0B450300021309 /* main.m */,
+				B05D6C3E1B0B451100021309 /* SharedObject.h */,
+				B05D6C3F1B0B451100021309 /* SharedObject.m */,
+				B05D6C411B0B483100021309 /* DescendantOfShareObj.h */,
+				B05D6C421B0B483100021309 /* DescendantOfShareObj.m */,
 			);
-			name = CopyMode;
-			path = CopyDemo;
+			path = "SharedInstance(Singleton)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B0498D401B0B1AED0011C6C6 /* CopyMode */ = {
+		B05D6C331B0B450300021309 /* SharedInstance(Singleton) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0498D451B0B1AED0011C6C6 /* Build configuration list for PBXNativeTarget "CopyMode" */;
+			buildConfigurationList = B05D6C3B1B0B450300021309 /* Build configuration list for PBXNativeTarget "SharedInstance(Singleton)" */;
 			buildPhases = (
-				B0498D3D1B0B1AED0011C6C6 /* Sources */,
-				B0498D3E1B0B1AED0011C6C6 /* Frameworks */,
-				B0498D3F1B0B1AED0011C6C6 /* CopyFiles */,
+				B05D6C301B0B450300021309 /* Sources */,
+				B05D6C311B0B450300021309 /* Frameworks */,
+				B05D6C321B0B450300021309 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CopyMode;
-			productName = CopyMode;
-			productReference = B0498D411B0B1AED0011C6C6 /* CopyMode */;
+			name = "SharedInstance(Singleton)";
+			productName = "SharedInstance(Singleton)";
+			productReference = B05D6C341B0B450300021309 /* SharedInstance(Singleton) */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B00354511B0ADDBC00B5B9E6 /* Project object */ = {
+		B05D6C2C1B0B450300021309 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Wayne;
 				TargetAttributes = {
-					B0498D401B0B1AED0011C6C6 = {
-						CreatedOnToolsVersion = 6.3.1;
+					B05D6C331B0B450300021309 = {
+						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = B00354541B0ADDBC00B5B9E6 /* Build configuration list for PBXProject "CopyMode" */;
+			buildConfigurationList = B05D6C2F1B0B450300021309 /* Build configuration list for PBXProject "SharedInstance(Singleton)" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B00354501B0ADDBC00B5B9E6;
-			productRefGroup = B003545A1B0ADDBC00B5B9E6 /* Products */;
+			mainGroup = B05D6C2B1B0B450300021309;
+			productRefGroup = B05D6C351B0B450300021309 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0498D401B0B1AED0011C6C6 /* CopyMode */,
+				B05D6C331B0B450300021309 /* SharedInstance(Singleton) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B0498D3D1B0B1AED0011C6C6 /* Sources */ = {
+		B05D6C301B0B450300021309 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0498D481B0B1C340011C6C6 /* main.m in Sources */,
-				B0498D491B0B1C340011C6C6 /* MyObj.m in Sources */,
-				B0498D4E1B0B2AA00011C6C6 /* MyObj2.m in Sources */,
-				B0498D4A1B0B1C340011C6C6 /* NSMutableArray+MutableArrayDeepCopyingSupport.m in Sources */,
+				B05D6C381B0B450300021309 /* main.m in Sources */,
+				B05D6C431B0B483100021309 /* DescendantOfShareObj.m in Sources */,
+				B05D6C401B0B451100021309 /* SharedObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B003545E1B0ADDBC00B5B9E6 /* Debug */ = {
+		B05D6C391B0B450300021309 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -186,7 +179,7 @@
 			};
 			name = Debug;
 		};
-		B003545F1B0ADDBC00B5B9E6 /* Release */ = {
+		B05D6C3A1B0B450300021309 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -221,18 +214,14 @@
 			};
 			name = Release;
 		};
-		B0498D461B0B1AED0011C6C6 /* Debug */ = {
+		B05D6C3C1B0B450300021309 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		B0498D471B0B1AED0011C6C6 /* Release */ = {
+		B05D6C3D1B0B450300021309 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -242,25 +231,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B00354541B0ADDBC00B5B9E6 /* Build configuration list for PBXProject "CopyMode" */ = {
+		B05D6C2F1B0B450300021309 /* Build configuration list for PBXProject "SharedInstance(Singleton)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B003545E1B0ADDBC00B5B9E6 /* Debug */,
-				B003545F1B0ADDBC00B5B9E6 /* Release */,
+				B05D6C391B0B450300021309 /* Debug */,
+				B05D6C3A1B0B450300021309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0498D451B0B1AED0011C6C6 /* Build configuration list for PBXNativeTarget "CopyMode" */ = {
+		B05D6C3B1B0B450300021309 /* Build configuration list for PBXNativeTarget "SharedInstance(Singleton)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0498D461B0B1AED0011C6C6 /* Debug */,
-				B0498D471B0B1AED0011C6C6 /* Release */,
+				B05D6C3C1B0B450300021309 /* Debug */,
+				B05D6C3D1B0B450300021309 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B00354511B0ADDBC00B5B9E6 /* Project object */;
+	rootObject = B05D6C2C1B0B450300021309 /* Project object */;
 }

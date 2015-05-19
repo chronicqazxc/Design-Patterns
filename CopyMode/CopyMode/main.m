@@ -24,9 +24,9 @@ int main(int argc, const char * argv[]) {
         NSLog(@"mutableCopiedArray\t<%p>\n%@\n-----------------",mutableCopiedArray, mutableCopiedArray);
         
 #pragma mark Copy MyObj
-        MyObj *myObj2 = [myObj copy];
+        MyObj *myObjOther = [myObj copy];
         NSLog(@"myObj\t<%p>\n",myObj);
-        NSLog(@"myObj2\t<%p>\n-----------------",myObj2);
+        NSLog(@"myObj2\t<%p>\n-----------------",myObjOther);
         
 #pragma mark DeepCopy NSMutableArray
         NSMutableArray *originMArray = [NSMutableArray arrayWithObject:myObj];
@@ -37,6 +37,12 @@ int main(int argc, const char * argv[]) {
         NSLog(@"copiedMArray\t\t\t<%p>\n%@",copiedMArray, copiedMArray);
         NSLog(@"mutableCopiedMArray\t\t<%p>\n%@",mutableCopiedMArray, mutableCopiedMArray);
         NSLog(@"deepCopiedMArray\t\t<%p>\n%@\n-----------------",deepCopiedMArray, deepCopiedMArray);
+        
+        MyObj2 *myObj2 = [[MyObj2 alloc] init];
+        myObj2.name = @"MyObj2";
+        myObj.myObj2 = myObj2;
+        NSLog(@"myObj2\t\t\t<%p>",myObj2);
+        NSLog(@"myObj.myObj2\t\t\t<%p>",myObj.myObj2);
     }
     return 0;
 }
