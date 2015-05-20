@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SharedObject : NSObject
+@interface SharedObject : NSObject <NSCopying, NSMutableCopying>
 + (id)sharedInstance;
 @end

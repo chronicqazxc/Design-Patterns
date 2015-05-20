@@ -16,6 +16,8 @@ int main(int argc, const char * argv[]) {
         DescendantOfShareObj *sharedObj2 = [DescendantOfShareObj sharedInstance];
         NSLog(@"<%p>",sharedObj);
         NSLog(@"<%p>",sharedObj2);
+        SharedObject *shareObj3 = [sharedObj copy];
+        NSLog(@"<%p>",shareObj3);
     }
     return 0;
 }
