@@ -10,7 +10,7 @@
 
 @implementation SharedObject
 
-static SharedObject *sharedObject = nil;
+static id sharedObject = nil;
 
 + (id)sharedInstance {
     if (!sharedObject) {
