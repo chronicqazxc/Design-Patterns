@@ -12,4 +12,7 @@
 @interface MyObj : NSObject <NSCopying, NSCoding>
 @property (strong, nonatomic) NSString *name;
 @property (copy, nonatomic) MyObj2 *myObj2;
+@property (copy, nonatomic) NSArray *arr;
+@property (copy, nonatomic) NSMutableArray *mArr;
+@property (strong, nonatomic) NSMutableArray *strongMArr;
 @end

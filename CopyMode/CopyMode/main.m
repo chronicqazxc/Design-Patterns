@@ -14,6 +14,17 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         MyObj *myObj = [[MyObj alloc] init];
         myObj.name = @"Halo";
+        NSArray *testArr = @[@1, @2, @3];
+        NSMutableArray *testMArr = [NSMutableArray arrayWithArray:testArr];
+        myObj.arr = testArr;
+        myObj.mArr = testMArr;
+        myObj.strongMArr = testMArr;
+        NSLog(@"testArr\t\t\t\t<%p>",testArr);
+        NSLog(@"myObj.arr\t\t\t<%p>",myObj.arr);
+        NSLog(@"testMArr\t\t\t<%p>",testMArr);
+        NSLog(@"myObj.mArr\t\t\t<%p>",myObj.mArr);
+        NSLog(@"myObj.strongMArr\t<%p>",myObj.strongMArr);
+        
 #pragma mark Copy NSArray
         NSArray *originArray = @[myObj];
         NSArray *copiedArray = [originArray copy];
@@ -42,7 +53,7 @@ int main(int argc, const char * argv[]) {
         myObj2.name = @"MyObj2";
         myObj.myObj2 = myObj2;
         NSLog(@"myObj2\t\t\t<%p>",myObj2);
-        NSLog(@"myObj.myObj2\t\t\t<%p>",myObj.myObj2);
+        NSLog(@"myObj.myObj2\t<%p>",myObj.myObj2);
     }
     return 0;
 }
