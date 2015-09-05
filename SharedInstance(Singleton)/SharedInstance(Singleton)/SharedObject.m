@@ -13,14 +13,15 @@
 static id sharedObject = nil;
 
 + (id)sharedInstance {
-    if (!sharedObject) {
-        sharedObject = [[self hiddenAlloc] init];
-    }
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{
+        sharedObject = [self hiddenAlloc];
+    });
     return sharedObject;
 }
 
 + (id)hiddenAlloc {
-    return [super alloc];
+    return [[super alloc] init];
 }
 
 - (id)init {

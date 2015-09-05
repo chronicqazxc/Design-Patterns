@@ -16,7 +16,7 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Factory *factory = [[MulFactory alloc] init];
+        Factory *factory = [[AddFactory alloc] init];
         Operator *operator = [factory createOperator];
         operator.numberA = 3.;
         operator.numberB = 4.;
