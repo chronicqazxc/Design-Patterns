@@ -115,12 +115,12 @@
 		B08500BF1B9B2FD2009F0975 /* Factorys */ = {
 			isa = PBXGroup;
 			children = (
+				B007E4291B9C759A00FF17FF /* Factory.h */,
+				B007E42A1B9C759A00FF17FF /* Factory.m */,
 				B007E4251B9C759A00FF17FF /* AddFactory.h */,
 				B007E4261B9C759A00FF17FF /* AddFactory.m */,
 				B007E4271B9C759A00FF17FF /* DivFactory.h */,
 				B007E4281B9C759A00FF17FF /* DivFactory.m */,
-				B007E4291B9C759A00FF17FF /* Factory.h */,
-				B007E42A1B9C759A00FF17FF /* Factory.m */,
 				B007E42B1B9C759A00FF17FF /* MulFactory.h */,
 				B007E42C1B9C759A00FF17FF /* MulFactory.m */,
 				B007E42D1B9C759A00FF17FF /* SubFactory.h */,

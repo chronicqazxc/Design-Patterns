@@ -1,18 +1,15 @@
 //
 //  Factory.h
-//  Factory
+//  AbstractFactory
 //
-//  Created by Wayne Hsiao on 9/5/15.
+//  Created by Wayne Hsiao on 9/6/15.
 //  Copyright (c) 2015 Wayne Hsiao. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
+@class Product;
+
 @interface Factory : NSObject
-/**
- *  Template method
- *
- *  @return Concrete operator
- */
-- (id)createOperator;
+- (Product *)product;
 @end
