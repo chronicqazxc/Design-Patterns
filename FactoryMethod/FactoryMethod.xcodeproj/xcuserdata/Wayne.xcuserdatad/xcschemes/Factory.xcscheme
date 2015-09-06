@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B085009A1B9B2DCC009F0975"
-               BuildableName = "Factory"
-               BlueprintName = "Factory"
-               ReferencedContainer = "container:Factory.xcodeproj">
+               BuildableName = "FactoryMethod"
+               BlueprintName = "FactoryMethod"
+               ReferencedContainer = "container:FactoryMethod.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B085009A1B9B2DCC009F0975"
-            BuildableName = "Factory"
-            BlueprintName = "Factory"
-            ReferencedContainer = "container:Factory.xcodeproj">
+            BuildableName = "FactoryMethod"
+            BlueprintName = "FactoryMethod"
+            ReferencedContainer = "container:FactoryMethod.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B085009A1B9B2DCC009F0975"
-            BuildableName = "Factory"
-            BlueprintName = "Factory"
-            ReferencedContainer = "container:Factory.xcodeproj">
+            BuildableName = "FactoryMethod"
+            BlueprintName = "FactoryMethod"
+            ReferencedContainer = "container:FactoryMethod.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B085009A1B9B2DCC009F0975"
-            BuildableName = "Factory"
-            BlueprintName = "Factory"
-            ReferencedContainer = "container:Factory.xcodeproj">
+            BuildableName = "FactoryMethod"
+            BlueprintName = "FactoryMethod"
+            ReferencedContainer = "container:FactoryMethod.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -12,7 +12,7 @@
 #import "Factorys/SubFactory.h"
 #import "Factorys/MulFactory.h"
 #import "Factorys/DivFactory.h"
-#import "Operator/Operator.h"
+#import "Operators/Operator.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {

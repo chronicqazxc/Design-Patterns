@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D8E34988-64D4-4575-A64A-8FA18A33E1ED</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Factory</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>87AA03B8E027CC97E3538CE40C74276FD35E67FE</key>
 		<string>https://github.com/chronicqazxc/Cocoa-Design-Pattern.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Factory/Factory.xcodeproj/project.xcworkspace</string>
+	<string>Factory/Factory.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>87AA03B8E027CC97E3538CE40C74276FD35E67FE</key>
