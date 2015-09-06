@@ -1,3 +1,3 @@
-Cocoa-Design-Pattern
+Design Patterns
 ====================
 
