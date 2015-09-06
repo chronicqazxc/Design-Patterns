@@ -9,9 +9,17 @@
 #import "OperatorDiv.h"
 
 @implementation OperatorDiv
+- (double)resultByNumberA:(double)numberA andNumberB:(double)numberb {
+    return [self result];
+}
+
 - (double)result {
-    NSAssert(self.numberB != 0, @"Divisor can't be zero");
+    [self checkDivisor];
     double result = self.numberA / self.numberB;
     return result;
+}
+
+- (void)checkDivisor {
+    NSAssert(self.numberB != 0, @"Divisor can't be zero");
 }
 @end

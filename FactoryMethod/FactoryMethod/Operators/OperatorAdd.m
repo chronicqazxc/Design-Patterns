@@ -9,6 +9,10 @@
 #import "OperatorAdd.h"
 
 @implementation OperatorAdd
+- (double)resultByNumberA:(double)numberA andNumberB:(double)numberb {
+    return [self result];
+}
+
 - (double)result {
     double result = self.numberA + self.numberB;
     return result;

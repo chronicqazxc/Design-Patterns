@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Operator : NSObject
+- (double)resultByNumberA:(double)numberA andNumberB:(double)numberb;
 @property (nonatomic) double numberA;
 @property (nonatomic) double numberB;
 - (double)result;

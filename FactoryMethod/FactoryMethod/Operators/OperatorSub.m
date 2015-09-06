@@ -9,6 +9,10 @@
 #import "OperatorSub.h"
 
 @implementation OperatorSub
+- (double)resultByNumberA:(double)numberA andNumberB:(double)numberb {
+    return [self result];
+}
+
 - (double)result {
     double result = 0;
     result = self.numberA - self.numberB;

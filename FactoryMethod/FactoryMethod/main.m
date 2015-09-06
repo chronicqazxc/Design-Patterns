@@ -18,9 +18,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Factory *factory = [[AddFactory alloc] init];
         Operator *operator = [factory createOperator];
-        operator.numberA = 3.;
-        operator.numberB = 4.;
-        double result = operator.result;
+        double result = [operator resultByNumberA:3. andNumberB:4.];
         NSLog(@"Result: %.2f", result);
     }
     return 0;

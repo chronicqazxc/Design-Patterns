@@ -9,6 +9,11 @@
 #import "Operator.h"
 
 @implementation Operator
+- (double)resultByNumberA:(double)numberA andNumberB:(double)numberb {
+    double result = 0;
+    return result;
+}
+
 - (double)result {
     double result = 0;
     return result;
