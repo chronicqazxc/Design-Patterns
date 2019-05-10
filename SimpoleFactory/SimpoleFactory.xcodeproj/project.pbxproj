@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		B054EBAF2285E5E600352B71 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
-		B054EBB02285EA6D00352B71 /* class-diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "class-diagram.png"; sourceTree = "<group>"; };
+		B054EBB12285EB7600352B71 /* class-diagram.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "class-diagram.pdf"; sourceTree = "<group>"; };
 		B08500761B9AEB34009F0975 /* SimpoleFactory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimpoleFactory; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08500791B9AEB34009F0975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B08500801B9AEB52009F0975 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		B085006D1B9AEB34009F0975 = {
 			isa = PBXGroup;
 			children = (
-				B054EBB02285EA6D00352B71 /* class-diagram.png */,
+				B054EBB12285EB7600352B71 /* class-diagram.pdf */,
 				B054EBAF2285E5E600352B71 /* Readme.md */,
 				B08500781B9AEB34009F0975 /* SimpoleFactory */,
 				B08500771B9AEB34009F0975 /* Products */,
