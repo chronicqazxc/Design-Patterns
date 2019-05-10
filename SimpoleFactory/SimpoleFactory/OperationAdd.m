@@ -9,8 +9,8 @@
 #import "OperationAdd.h"
 
 @implementation OperationAdd
-- (double)result {
-    double result = 0;
+- (NSInteger)result {
+    NSInteger result = 0;
     result = self.numberA + self.numberB;
     return result;
 }

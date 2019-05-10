@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Operation : NSObject
-@property (nonatomic) double numberA;
-@property (nonatomic) double numberB;
-- (double)result;
+@property (nonatomic) NSInteger numberA;
+@property (nonatomic) NSInteger numberB;
+- (NSInteger)result;
 @end

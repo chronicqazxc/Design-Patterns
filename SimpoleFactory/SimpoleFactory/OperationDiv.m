@@ -9,9 +9,9 @@
 #import "OperationDiv.h"
 
 @implementation OperationDiv
-- (double)result {
+- (NSInteger)result {
     NSAssert(self.numberB != 0, @"Divisor can't be zero");
-    double result = 0;
+    NSInteger result = 0;
     result = self.numberA / self.numberB;
     return result;
 }

@@ -9,7 +9,7 @@
 #import "Operation.h"
 
 @implementation Operation
-- (double)result {
+- (NSInteger)result {
     double result = 0;
     return result;
 }
