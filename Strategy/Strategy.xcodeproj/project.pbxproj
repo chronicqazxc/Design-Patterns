@@ -8,11 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B09C4FA21BA3B7530036F227 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B09C4FA11BA3B7530036F227 /* main.m */; };
-		B09C4FAC1BA3B7E00036F227 /* Operator.m in Sources */ = {isa = PBXBuildFile; fileRef = B09C4FAB1BA3B7E00036F227 /* Operator.m */; };
 		B09C4FAF1BA3B8120036F227 /* OperatorA.m in Sources */ = {isa = PBXBuildFile; fileRef = B09C4FAE1BA3B8120036F227 /* OperatorA.m */; };
 		B09C4FB21BA3B81F0036F227 /* OperatorB.m in Sources */ = {isa = PBXBuildFile; fileRef = B09C4FB11BA3B81F0036F227 /* OperatorB.m */; };
 		B09C4FB51BA3B82D0036F227 /* OperatorC.m in Sources */ = {isa = PBXBuildFile; fileRef = B09C4FB41BA3B82D0036F227 /* OperatorC.m */; };
-		B09C4FB81BA3B87E0036F227 /* OperatorContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B09C4FB71BA3B87E0036F227 /* OperatorContext.m */; };
+		B09C4FB81BA3B87E0036F227 /* Context.m in Sources */ = {isa = PBXBuildFile; fileRef = B09C4FB71BA3B87E0036F227 /* Context.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,18 +27,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B054EBB6228676DB00352B71 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		B054EBB722867FCB00352B71 /* DesignPattern-Strategy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DesignPattern-Strategy.png"; sourceTree = "<group>"; };
 		B09C4F9E1BA3B7530036F227 /* Strategy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Strategy; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09C4FA11BA3B7530036F227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B09C4FAA1BA3B7E00036F227 /* Operator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Operator.h; path = Operator/Operator.h; sourceTree = "<group>"; };
-		B09C4FAB1BA3B7E00036F227 /* Operator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Operator.m; path = Operator/Operator.m; sourceTree = "<group>"; };
+		B09C4FAA1BA3B7E00036F227 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Strategy.h; path = Operator/Strategy.h; sourceTree = "<group>"; };
 		B09C4FAD1BA3B8120036F227 /* OperatorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperatorA.h; path = Operator/OperatorA.h; sourceTree = "<group>"; };
 		B09C4FAE1BA3B8120036F227 /* OperatorA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperatorA.m; path = Operator/OperatorA.m; sourceTree = "<group>"; };
 		B09C4FB01BA3B81F0036F227 /* OperatorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperatorB.h; path = Operator/OperatorB.h; sourceTree = "<group>"; };
 		B09C4FB11BA3B81F0036F227 /* OperatorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperatorB.m; path = Operator/OperatorB.m; sourceTree = "<group>"; };
 		B09C4FB31BA3B82D0036F227 /* OperatorC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OperatorC.h; path = Operator/OperatorC.h; sourceTree = "<group>"; };
 		B09C4FB41BA3B82D0036F227 /* OperatorC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OperatorC.m; path = Operator/OperatorC.m; sourceTree = "<group>"; };
-		B09C4FB61BA3B87E0036F227 /* OperatorContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperatorContext.h; sourceTree = "<group>"; };
-		B09C4FB71BA3B87E0036F227 /* OperatorContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperatorContext.m; sourceTree = "<group>"; };
+		B09C4FB61BA3B87E0036F227 /* Context.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Context.h; sourceTree = "<group>"; };
+		B09C4FB71BA3B87E0036F227 /* Context.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Context.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +56,8 @@
 		B09C4F951BA3B7530036F227 = {
 			isa = PBXGroup;
 			children = (
+				B054EBB722867FCB00352B71 /* DesignPattern-Strategy.png */,
+				B054EBB6228676DB00352B71 /* Readme.md */,
 				B09C4FA01BA3B7530036F227 /* Strategy */,
 				B09C4F9F1BA3B7530036F227 /* Products */,
 			);
@@ -73,8 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				B09C4FA11BA3B7530036F227 /* main.m */,
-				B09C4FB61BA3B87E0036F227 /* OperatorContext.h */,
-				B09C4FB71BA3B87E0036F227 /* OperatorContext.m */,
+				B09C4FB61BA3B87E0036F227 /* Context.h */,
+				B09C4FB71BA3B87E0036F227 /* Context.m */,
 				B09C4FA91BA3B77A0036F227 /* Operator */,
 			);
 			path = Strategy;
@@ -83,8 +85,7 @@
 		B09C4FA91BA3B77A0036F227 /* Operator */ = {
 			isa = PBXGroup;
 			children = (
-				B09C4FAA1BA3B7E00036F227 /* Operator.h */,
-				B09C4FAB1BA3B7E00036F227 /* Operator.m */,
+				B09C4FAA1BA3B7E00036F227 /* Strategy.h */,
 				B09C4FAD1BA3B8120036F227 /* OperatorA.h */,
 				B09C4FAE1BA3B8120036F227 /* OperatorA.m */,
 				B09C4FB01BA3B81F0036F227 /* OperatorB.h */,
@@ -134,6 +135,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = B09C4F951BA3B7530036F227;
@@ -152,10 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B09C4FB21BA3B81F0036F227 /* OperatorB.m in Sources */,
-				B09C4FB81BA3B87E0036F227 /* OperatorContext.m in Sources */,
+				B09C4FB81BA3B87E0036F227 /* Context.m in Sources */,
 				B09C4FAF1BA3B8120036F227 /* OperatorA.m in Sources */,
 				B09C4FA21BA3B7530036F227 /* main.m in Sources */,
-				B09C4FAC1BA3B7E00036F227 /* Operator.m in Sources */,
 				B09C4FB51BA3B82D0036F227 /* OperatorC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +274,7 @@
 				B09C4FA71BA3B7530036F227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  Operator.h
+//  Strategy.h
 //  Strategy
 //
 //  Created by Wayne Hsiao on 9/12/15.
@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Operator : NSObject
+@protocol Strategy <NSObject>
+- (void)process;
 - (void)showResult;
 @end

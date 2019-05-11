@@ -7,13 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "OperatorContext.h"
+#import "Context.h"
+#import "OperatorA.h"
+#import "OperatorB.h"
 #import "OperatorC.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        OperatorContext *operatorContext = [[OperatorContext alloc] initWithOperator:[OperatorC class]];
-        [operatorContext showResult];
+        Context *context = [[Context alloc] initWithStrategy:[OperatorC class]];
+        [context execute];
+        context = [[Context alloc] initWithStrategy:[OperatorA class]];
+        [context execute];
+        context = [[Context alloc] initWithStrategy:[OperatorB class]];
+        [context execute];
     }
     return 0;
 }

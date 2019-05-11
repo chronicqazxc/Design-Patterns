@@ -9,8 +9,10 @@
 #import "OperatorB.h"
 
 @implementation OperatorB
+- (void)process {
+    NSLog(@"Operator B process.");
+}
 - (void)showResult {
-    [super showResult];
-    NSLog(@"Operator B done");
+    NSLog(@"Operator B done.");
 }
 @end

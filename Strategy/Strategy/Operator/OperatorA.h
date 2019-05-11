@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Wayne Hsiao. All rights reserved.
 //
 
-#import "Operator.h"
+#import "Strategy.h"
 
-@interface OperatorA : Operator
+@interface OperatorA : NSObject <Strategy>
 
 @end

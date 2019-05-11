@@ -1,5 +1,5 @@
 //
-//  OperatorContext.h
+//  Context.h
 //  Strategy
 //
 //  Created by Wayne Hsiao on 9/12/15.
@@ -8,9 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class Operator;
-
-@interface OperatorContext : NSObject
-- (id)initWithOperator:(Class)operatorClass;
-- (void)showResult;
+@interface Context : NSObject
+- (id)initWithStrategy:(Class)strategyClass;
+- (void)execute;
 @end
