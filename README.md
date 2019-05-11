@@ -20,4 +20,4 @@ I worte these simplify demo to present each desing patterns.
 |[Strategy](Strategy)|
 |[TemplateMethod](TemplateMethod)|
 
-Author: [Wayne Hsiao](chronicqazxc@gmail.com)
+Author: Wayne Hsiao (chronicqazxc@gmail.com)
