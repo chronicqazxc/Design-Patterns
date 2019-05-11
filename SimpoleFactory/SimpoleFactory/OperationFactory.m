@@ -10,9 +10,9 @@
 #import "Operation.h"
 
 @implementation OperationFactory
-- (id)createOperationByClassString:(NSString *)operationClassString {
++ (OperationType)createOperationByClassString:(NSString *)operationClassString {
     Class class = NSClassFromString(operationClassString);
-    Operation *operation = [[class alloc] init];
+    OperationType operation = [[class alloc] init];
     return operation;
 }
 @end

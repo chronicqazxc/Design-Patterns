@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Operation.h"
 
 @interface OperationFactory : NSObject
-- (id)createOperationByClassString:(NSString *)operationClassString;
++ (OperationType)createOperationByClassString:(NSString *)operationClassString;
 @end

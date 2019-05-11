@@ -10,37 +10,27 @@
 #import "OperationFactory.h"
 #import "Operation.h"
 
-@interface Operation (Test)
-
-- (void)setupNumbersForTest;
-
-@end
-
-@implementation Operation (Test)
-
-- (void)setupNumbersForTest {
-    self.numberA = 1;
-    self.numberB = 2;
+void setupNumbersForTest(OperationType operation) {
+    operation.numberA = 1;
+    operation.numberB = 2;
 }
-
-@end
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Operation *operation = [[OperationFactory new] createOperationByClassString:@"OperationAdd"];
-        [operation setupNumbersForTest];
+        OperationType operation = [OperationFactory createOperationByClassString:@"OperationAdd"];
+        setupNumbersForTest(operation);
         NSLog(@"Result of add:%ld", operation.result);
         
-        operation = [[OperationFactory new] createOperationByClassString:@"OperationSub"];
-        [operation setupNumbersForTest];
+        operation = [OperationFactory createOperationByClassString:@"OperationSub"];
+        setupNumbersForTest(operation);
         NSLog(@"Result of subtract:%ld", operation.result);
         
-        operation = [[OperationFactory new] createOperationByClassString:@"OperationMul"];
-        [operation setupNumbersForTest];
+        operation = [OperationFactory createOperationByClassString:@"OperationMul"];
+        setupNumbersForTest(operation);
         NSLog(@"Result of multiplication:%ld", operation.result);
         
-        operation = [[OperationFactory new] createOperationByClassString:@"OperationDiv"];
-        [operation setupNumbersForTest];
+        operation = [OperationFactory createOperationByClassString:@"OperationDiv"];
+        setupNumbersForTest(operation);
         NSLog(@"Result of division:%ld", operation.result);
     }
     return 0;

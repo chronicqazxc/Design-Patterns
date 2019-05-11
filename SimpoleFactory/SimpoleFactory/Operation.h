@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Operation : NSObject
+@protocol Operation <NSObject>
 @property (nonatomic) NSInteger numberA;
 @property (nonatomic) NSInteger numberB;
 - (NSInteger)result;
 @end
+
+typedef id<Operation> OperationType;

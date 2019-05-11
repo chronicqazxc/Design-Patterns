@@ -8,6 +8,8 @@
 
 #import "Operation.h"
 
-@interface OperationMul : Operation
-
+@interface OperationMul: NSObject <Operation>
+@property (nonatomic) NSInteger numberA;
+@property (nonatomic) NSInteger numberB;
+- (NSInteger)result;
 @end
