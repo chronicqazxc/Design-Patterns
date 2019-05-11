@@ -1,10 +1,10 @@
 Design Patterns
 ====================
-Design pattern are reusable, flexible, scalable solutions to common problems in software engineering.
+Design pattern are reusable, flexible, scalable solutions to common problems in software engineering.  
 I worte these simplify demo to present each desing patterns.
 
 |Design Patterns|
----
+|---|
 |[AbstractFactory](AbstractFactory)|
 |[AnonymousType](AnonymousType)|
 |[Category](Category)|
