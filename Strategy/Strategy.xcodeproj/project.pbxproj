@@ -28,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		B054EBB6228676DB00352B71 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
-		B054EBB722867FCB00352B71 /* DesignPattern-Strategy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DesignPattern-Strategy.png"; sourceTree = "<group>"; };
+		B054EBB82286817A00352B71 /* DesignPattern-Strategy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DesignPattern-Strategy.png"; sourceTree = "<group>"; };
 		B09C4F9E1BA3B7530036F227 /* Strategy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Strategy; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09C4FA11BA3B7530036F227 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B09C4FAA1BA3B7E00036F227 /* Strategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Strategy.h; path = Operator/Strategy.h; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		B09C4F951BA3B7530036F227 = {
 			isa = PBXGroup;
 			children = (
-				B054EBB722867FCB00352B71 /* DesignPattern-Strategy.png */,
+				B054EBB82286817A00352B71 /* DesignPattern-Strategy.png */,
 				B054EBB6228676DB00352B71 /* Readme.md */,
 				B09C4FA01BA3B7530036F227 /* Strategy */,
 				B09C4F9F1BA3B7530036F227 /* Products */,
